@@ -4,26 +4,66 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 53, 43, 142;
+  --background-end-rgb: 11, 1, 33;
+  --primary: 265 10% 98%;
+
+  --foreground: 265 10% 98%;
+
+  --muted: 265 41% 9.6%;
+  --muted-foreground: 265 10% 56%;
+
+  --popover: 265 48% 13.799999999999999%;
+  --popover-foreground: 265 10% 98%;
+
+  --card: 257 76% 6%;
+  --card-foreground: 0 0% 93%;
+
+  --border: 265 41% 9.6%;
+  --input: 265 41% 9.6%;
+
+
+  --primary-foreground: 265 10% 6%;
+
+  --secondary: 265 41% 9.6%;
+  --secondary-foreground: 265 10% 98%;
+
+  --accent: 265 41% 9.6%;
+  --accent-foreground: 265 10% 98%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 265 10% 98%;
+
+  --ring: 265 100% 60%;
+
+  --chart-1: 258 12% 28%;
+  --chart-2: 259 76% 49%;
+  --chart-3: 279 69% 35%;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 236, 236, 236;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+
+    --chart-1: 258 12% 28%;
+    --chart-2: 259 76% 49%;
+    --chart-3: 279 69% 35%;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #ECECEC;
+  background-color: rgba(11, 1, 33, 1);
+  background-image:
+
+    url("../public/background.jpg");
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 @layer utilities {
