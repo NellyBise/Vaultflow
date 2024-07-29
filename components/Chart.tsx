@@ -81,14 +81,14 @@ export function Chart() {
 
     return (
 
-        <Card className="flex rounded-3xl overflow-hidden border-none shadow-white/30 shadow-def w-[960px] h-[472px] pb-8">
+        <Card id="card" className="flex rounded-3xl overflow-hidden border-none shadow-white/30 shadow-def w-[960px] h-[472px] pb-8">
             {/****************** right menu ************************/}
             <CardFooter className="py-2 px-4 flex flex-col gap-10 bg-[#02030D] h-[472px] z-10">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="grey" d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1m0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1M3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1" /></svg>
                 <ul className="flex flex-col gap-8">
                     <li className="p-1 bg-violet-700 rounded-lg shadow-def shadow-violet-700/80"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="white" strokeWidth="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z" /><path strokeLinecap="round" strokeLinejoin="round" d="m7 14l2.293-2.293a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 0 1.414 0L17 10m0 0v2.5m0-2.5h-2.5" /></g></svg></li>
                     <li className="p-1 bg-purple-700 rounded-lg shadow-def shadow-purple-700/80"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="white" strokeLinecap="round" strokeWidth="1.5"><path d="M12 2c5.523 0 10 4.477 10 10c0 1.821-.487 3.53-1.338 5M5 4.859A9.97 9.97 0 0 0 2 12c0 5.523 4.477 10 10 10c1.821 0 3.53-.487 5-1.338" /><path d="M5 12c0 1.487.464 2.866 1.255 4M12 5a7 7 0 1 1-3 13.326" /><path d="M12 16a4 4 0 0 0 0-8" /></g></svg></li>
-                    <li className="p-1 bg-fuchsia-600 rounded-lg shadow-def shadow-fuschia-600/80"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2" /></svg></li>
+                    <li className="p-1 bg-fuchsia-600 rounded-lg shadow-def shadow-fuchsia-600/80"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="white" d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2" /></svg></li>
                 </ul>
                 <ul className="flex flex-col">
                     <li className="p-3 rounded-lg border-none shadow-white/30 shadow-def"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="white" d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15L6.04 7.5L12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z" /></svg></li>
@@ -123,22 +123,22 @@ export function Chart() {
                     <div className="flex justify-between h-full">
                         <div className='flex flex-col justify-center gap-2'>
                             <p className='text-violet-700 text-xs flex gap-4 items-center'>DASHBOARD <span className='text-white/50 text-lg'>&gt;</span><span className='text-white/50'>Vaultflow</span></p>
-                            <CardTitle className="flex gap-3 text-white font-normal tracking-tighter size-8  items-center"> <Image className="p-2 bg-violet-700 rounded-lg" alt="" src={logo} />Vaultflow <span className="px-2 rounded-full border-none shadow-white/30 shadow-md text-4xl font-light text-white/80">+</span></CardTitle>
+                            <CardTitle className="flex gap-3 text-white font-normal tracking-tighter size-8  items-center"> <Image className="p-2 bg-violet-700 rounded-lg" alt="" src={logo} />Vaultflow <span className="px-2.5 rounded-full border-none shadow-white/30 shadow-def text-4xl font-light text-white/80">+</span></CardTitle>
                         </div>
                         <div className="w-1/3 flex items-center justify-between">
                             <div className='flex w-1/2 flex-col text-[8px] text-white'>
-                                <p >Active users</p>
-                                <div>
-                                    {selectedData ? (<p>{selectedData[0].desktop} <span> total</span></p>) : (<p></p>)}
+                                <p className="flex items-center gap-2">Active users<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 20 20"><path fill="dimgrey" d="M2.93 17.07A10 10 0 1 1 17.07 2.93A10 10 0 0 1 2.93 17.07m12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32M9 5h2v6H9zm0 8h2v2H9z" /></svg></p>
+                                <div className='flex gap-1'>
+                                    {selectedData ? (<p>{selectedData[0].desktop} </p>) : (<p></p>)}<p className='text-white/50'>  total</p>
                                 </div>
-                                <ChartContainer className="w-full h-[20px] p m-0" config={chartConfig}>
+                                <ChartContainer className="w-full h-[16px] p-0 m-0" config={chartConfig}>
                                     <BarChart
                                         accessibilityLayer
                                         data={selectedData}
                                         layout="vertical"
                                         margin={{
-                                            left: 10,
-                                            top: 10
+                                            left: 0,
+                                            top: 0
                                         }}
                                     >
                                         <YAxis
@@ -165,17 +165,17 @@ export function Chart() {
                                         />
                                     </BarChart>
                                 </ChartContainer>
-                                <div>
-                                    {selectedData ? (<p>{selectedData[0].mobile} <span> total</span></p>) : (<p></p>)}
+                                <div className='flex gap-1'>
+                                    {selectedData ? (<p>{selectedData[0].mobile} </p>) : (<p></p>)}<p className='text-white/50'>  total</p>
                                 </div>
-                                <ChartContainer className="w-full h-[20px] p m-0" config={chartConfig}>
+                                <ChartContainer className="w-full h-[16px] p-0 m-0" config={chartConfig}>
                                     <BarChart
                                         accessibilityLayer
                                         data={selectedData}
                                         layout="vertical"
                                         margin={{
-                                            left: 10,
-                                            top: 10
+                                            left: 0,
+                                            top: 0
                                         }}
                                     >
                                         <YAxis
@@ -187,18 +187,19 @@ export function Chart() {
                                             hide
                                         />
                                         <XAxis type="number" hide />
-                                        <Bar
-                                            dataKey="total"
-                                            stackId="c"
-                                            fill="none"
-                                            radius={[0, 4, 4, 0]}
-                                        />
+
                                         <Bar
                                             dataKey="mobile"
                                             stackId="b"
                                             fill="var(--color-mobile2)"
                                             background={{ fill: "var(--color-desktop)" }}
                                             radius={[4, 0, 0, 4]}
+                                        />
+                                        <Bar
+                                            dataKey="total"
+                                            stackId="c"
+                                            fill="none"
+                                            radius={[0, 4, 4, 0]}
                                         />
                                     </BarChart>
                                 </ChartContainer>
@@ -260,8 +261,6 @@ export function Chart() {
                                     />
                                 </RadialBarChart>
                             </ChartContainer>
-
-
                         </div>
                     </div>
                 </CardDescription>
