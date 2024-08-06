@@ -26,7 +26,7 @@ export default function Home() {
       </section>
       <Chart />
       <article className="flex flex-col items-center text-center gap-8 my-12">
-        <p className="text-xl text-white/80">Trusted by teams at over 1,000 of the world’s leading organizations</p>
+        <p className="text-xl text-white/80">Trusted by teams at over 1,000 of the world&rsquo;s leading organizations</p>
         <Image src={logos} height={24} alt="Dell, Zendesk, Rakuten" />
         <h2 className=" text-5xl leading-[57px] mt-12 w-[400px]">Features that work for your future.</h2>
         <p className=" w-[470px]">Check out our amazing features and experience the power of Vaultflow for yourself.</p></article>
@@ -56,7 +56,7 @@ export default function Home() {
             <CardTitle className="mb-6 text-[32px] font-medium">
               <p className="mb-9 p-2 bg-fuchsia-600 rounded-lg shadow-def shadow-fuchsia-600/80 w-max"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path fill="white" d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2" /></svg></p>
               Code collaboration</CardTitle>
-            <p className="mb-[26px]">Our advanced code synchronization technology ensures that your data is always up-to-date and accurate, no matter where it's coming from. Whether you're integrating data from multiple sources or working with a team of developers, our synchronization technology makes it easy to collaborate and ensure that your data is consistent and reliable.</p>
+            <p className="mb-[26px]">Our advanced code synchronization technology ensures that your data is always up-to-date and accurate, no matter where it&rsquo;s coming from. Whether you&rsquo;re integrating data from multiple sources or working with a team of developers, our synchronization technology makes it easy to collaborate and ensure that your data is consistent and reliable.</p>
             <a href='#card' className="underline text-base">View code collaboration</a>
           </CardContent>
           <CardFooter className="w-1/2 p-0">
