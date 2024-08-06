@@ -56,6 +56,18 @@
   }
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  color: #ECECEC;
+  background: rgba(11, 1, 33, 1) url("../public/background.jpg") top center / contain no-repeat;
+}
+
 body {
   color: #ECECEC;
   background-color: rgba(11, 1, 33, 1);
