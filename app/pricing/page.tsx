@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import {
     Card,
     CardContent,
@@ -30,7 +31,7 @@ export default function Pricing() {
                         <p className="text-5xl my-8">$179 <span className="text-base">/ month</span></p></CardTitle>
                     <CardContent className="flex flex-col p-0 text-sm">
                         <p className="mb-[26px]">Our Analytics Dashboard provides a clear and intuitive interface for you to easily analyze your data. From customizable graphs to real-time data updates, our dashboard offers everything you need to gain valuable insights.</p>
-                        <a href='#card' className="underline text-base">View dashboard</a>
+                        <Link href='#card' className="underline text-base">View dashboard</Link>
                     </CardContent>
                 </Card>
                 <Card className="flex flex-col rounded-3xl overflow-hidden border-none bg-gradient-to-b from-white/5 p-[60px]">
@@ -39,7 +40,7 @@ export default function Pricing() {
                         Digital Credit Tokens</CardTitle>
                     <CardContent className="flex flex-col p-0 text-sm">
                         <p className="mb-[26px]">Reward your customers and incentivize engagement with our innovative digital credit tokens. Our tokens can be customized to match your branding, and are a flexible and scalable way to drive customer loyalty and encourage repeat business.</p>
-                        <a href='#card' className="underline text-base">View tokens</a>
+                        <Link href='#card' className="underline text-base">View tokens</Link>
                     </CardContent>
                 </Card>
             </section>

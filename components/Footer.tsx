@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logo from "../src/logo.png"
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -27,9 +28,9 @@ export default function Footer() {
                     <div>
                         <h3 className='text-white text-2xl font-medium pb-4'>Social</h3>
                         <ul>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Tik Tok</a></li>
+                            <li><Link href="#">Twitter</Link></li>
+                            <li><Link href="#">Instagram</Link></li>
+                            <li><Link href="#">Tik Tok</Link></li>
                         </ul>
                     </div>
                 </div>

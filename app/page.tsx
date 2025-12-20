@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logos from "../public/Logos.png"
 import tokens from "../src/tokens.png"
+import Link from "next/link";
 import { Chart } from "@/components/Chart";
 import { Button } from "@/components/ui/button";
 import {
@@ -37,7 +38,7 @@ export default function Home() {
             Analytics Dashboard</CardTitle>
           <CardContent className="flex flex-col p-0 text-sm">
             <p className="mb-[26px]">Our Analytics Dashboard provides a clear and intuitive interface for you to easily analyze your data. From customizable graphs to real-time data updates, our dashboard offers everything you need to gain valuable insights.</p>
-            <a href='#card' className="underline text-base">View dashboard</a>
+            <Link href='#card' className="underline text-base">View dashboard</Link>
           </CardContent>
         </Card>
         <Card className="flex flex-col rounded-3xl overflow-hidden border-none bg-gradient-to-b from-white/5 p-[60px]">
@@ -46,7 +47,7 @@ export default function Home() {
             Digital Credit Tokens</CardTitle>
           <CardContent className="flex flex-col p-0 text-sm">
             <p className="mb-[26px]">Reward your customers and incentivize engagement with our innovative digital credit tokens. Our tokens can be customized to match your branding, and are a flexible and scalable way to drive customer loyalty and encourage repeat business.</p>
-            <a href='#card' className="underline text-base">View tokens</a>
+            <Link href='#card' className="underline text-base">View tokens</Link>
           </CardContent>
         </Card>
       </section>
@@ -57,7 +58,7 @@ export default function Home() {
               <p className="mb-9 p-2 bg-fuchsia-600 rounded-lg shadow-def shadow-fuchsia-600/80 w-max"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path fill="white" d="M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2zm2 2H5V5h14v14.1M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2" /></svg></p>
               Code collaboration</CardTitle>
             <p className="mb-[26px]">Our advanced code synchronization technology ensures that your data is always up-to-date and accurate, no matter where it&rsquo;s coming from. Whether you&rsquo;re integrating data from multiple sources or working with a team of developers, our synchronization technology makes it easy to collaborate and ensure that your data is consistent and reliable.</p>
-            <a href='#card' className="underline text-base">View code collaboration</a>
+            <Link href='#card' className="underline text-base">View code collaboration</Link>
           </CardContent>
           <CardFooter className="w-1/2 p-0">
             <Image src={tokens} alt="" className="shadow-def rounded-3xl " />

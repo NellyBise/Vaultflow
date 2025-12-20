@@ -22,21 +22,21 @@ function Header() {
       <NavigationMenu className='text-white/50 text-base'>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <Link href="/">
+              <NavigationMenuLink asChild  className={navigationMenuTriggerStyle()}>
                 Features
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/pricing" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <Link href="/pricing" >
+              <NavigationMenuLink asChild  className={navigationMenuTriggerStyle()}>
                 Pricing
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem><NavigationMenuItem>
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <Link href="/" >
+              <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                 About us
               </NavigationMenuLink>
             </Link>
