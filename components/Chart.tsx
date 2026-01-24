@@ -223,7 +223,7 @@ export function Chart() {
                                                             x={viewBox.cx}
                                                             y={viewBox.cy}
                                                             textAnchor="middle"
-                                                            dominantBaseline="top"
+                                                            dominantBaseline="text-before-edge"
                                                         >
                                                             <tspan
                                                                 x={viewBox.cx}
